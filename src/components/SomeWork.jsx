@@ -21,7 +21,7 @@ const SomeWork = () => {
   ];
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     centerMode: true,
     slidesToShow: 5,
