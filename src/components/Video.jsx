@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../assets/video.svg";
 import play from "../assets/play.svg";
+import VideoModal from "./VideoModal";
 
 const Video = () => {
   return (
@@ -12,6 +13,7 @@ const Video = () => {
         src={play}
         alt=""
       />
+      <VideoModal />
     </div>
   );
 };
