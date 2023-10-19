@@ -421,14 +421,18 @@ a {
 }
 
 .accord-sec .btn1x {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 0;
     margin-top: 1rem;
     background-color: #fff;
 }
 
+svg {
+    color: #6F1DF4 !important;
+}
+
 .accord-sec .div1x {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-top: 0;
 }
 
