@@ -12,7 +12,7 @@ const Accordion = () => {
         >
           <div
             onClick={() => setIsOpen(index === isOpen ? null : index)}
-            className="flex justify-between"
+            className="flex justify-between items-center"
           >
             <p className="text-[18px] font-[700]">Where can I watch?</p>
             <div>
