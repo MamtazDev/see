@@ -311,8 +311,8 @@ a {
     color: #fff;
 }
 
-.slick-dots {
-    display: none !important;
+.slick-dots li button:before {
+    font-size: 0 !important;
 }
 
 .untern-slider5x .slick-dots {

@@ -20,7 +20,7 @@ const Gallery = () => {
     client1,
   ];
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4,

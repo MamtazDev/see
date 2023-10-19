@@ -20,7 +20,7 @@ const SomeWork = () => {
     OVAL,
   ];
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     centerMode: true,
