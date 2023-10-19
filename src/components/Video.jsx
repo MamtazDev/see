@@ -19,7 +19,7 @@ const Video = () => {
     <div className="video-sec md:pt-40 pt-20 flex items-center justify-center relative">
       {modalOpen ? (
         <video
-          className="lg:w-[70%] "
+          className="lg:w-[60%] "
           controls
           autoPlay={modalOpen}
           onClick={closeModal}
