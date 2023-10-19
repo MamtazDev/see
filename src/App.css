@@ -217,16 +217,29 @@ a {
 }
 
 .untern-slider4x .slick-prev {
-    background-image: url(./assets/rightarw.png);
+    background-image: url(./assets/leftarw.png );
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
     width: 5rem;
     border: 0;
     height: 11rem;
-    right: -4.5rem;
+    left: -80px;
     position: absolute;
-    top: 20rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 0 !important;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    background-color: unset;
 }
 
 .untern-slider4x .slick-next,
@@ -236,15 +249,16 @@ a {
 }
 
 .untern-slider4x .slick-next {
-    background-image: url(./assets/leftarw.png);
+    background-image: url(./assets/rightarw.png);
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
     width: 5rem;
     border: 0;
     height: 11rem;
-    top: 20rem;
-    left: -6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -80px;
     position: absolute;
 }
 
@@ -295,6 +309,10 @@ a {
 .west-inner .c-btn:hover {
     background-color: #DE0014 !important;
     color: #fff;
+}
+
+.slick-dots {
+    display: none !important;
 }
 
 .untern-slider5x .slick-dots {
@@ -655,17 +673,15 @@ a {
     .untern-slider4x .slick-prev {
         width: 3rem;
         height: 8rem;
-        right: -2.5rem;
-        top: calc(50% - 5rem);
         background-size: contain;
+        left: -44px;
     }
 
     .untern-slider4x .slick-next {
         width: 3rem;
         height: 8rem;
-        left: -3.5rem;
-        top: calc(50% - 5rem);
         background-size: contain;
+        right: -44px;
     }
 
     .techno-slide7x {
@@ -778,11 +794,11 @@ a {
     }
 
     .untern-slider4x .slick-next {
-        left: -1.9rem;
+        right: -1.9rem;
     }
 
     .untern-slider4x .slick-prev {
-        right: -1.9rem;
+        left: -1.9rem;
     }
 
     .fifth-slick-inner {

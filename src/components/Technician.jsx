@@ -13,7 +13,7 @@ const Technician = () => {
   return (
     <section className="assist-sec md:pt-40 pt-20 md:pl-16 pl-8 md:pr-40 pr-20">
       <div className="2xl:max-w-full xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm flex flex-wrap items-start justify-between mx-auto">
-        <div className="flex flex-wrap w-full items-center">
+        <div className="flex flex-wrap  w-full items-center">
           <div className="md:w-3/5 w-full assist-content">
             <h3 className="text-black md:text-3xl text-2xl font-semibold">
               MEET OUR TECHNICIANS
@@ -35,7 +35,7 @@ const Technician = () => {
             <Slider className="untern-slider4x w-full" {...settings}>
               {[1, 2, 3].map((index) => (
                 <div key={index}>
-                  <div className="techno-slide4x pr-6">
+                  <div className="techno-slide4x">
                     <img className="w-full" src={girl} alt="" />
                   </div>
                 </div>
